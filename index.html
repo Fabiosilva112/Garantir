@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <title>Web Site</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +21,31 @@
       <h2 class="header__logo">GARANTIR</h2>
       <nav class="header__navigation">
 
-        <a class="header__link" href="">COMO TRABALHAMOS</a>
-        <a class="header__link" href="">BLOG</a>
-        <a class="header__link" href="">CONTA</a>
-        <a class="header__link" href="">VER PLANOS</a>
+        <a class="header__link" href="#trabalhos">COMO TRABALHAMOS</a>
+        <a class="header__link" href="#contatos">BLOG</a>
+        <a class="header__link" href="#">CONTA</a>
+        <a class="header__link" href="#planos">VER PLANOS</a>
 
       </nav>
+
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="/assets/img/menu_white_36dp.svg" alt=""></button>
+      </div>
+    </div>
+
+
+
+    <div class="mobile-menu">
+
+      <ul>
+
+        <li><a class="header__link" href="#trabalhos">COMO TRABALHAMOS</a></li>
+        <li><a class="header__link" href="#contatos">BLOG</a></li>
+        <li><a class="header__link" href="#">CONTA</a></li>
+        <li><a class="header__link" href="#planos">VER PLANOS</a></li>
+
+      </ul>
+
     </div>
   </header>
 
@@ -43,17 +62,19 @@
         <button class="main__button">VER PLANOS</button>
 
       </div>
-      <img class="main__img" src="/images/image-intro-desktop.jpg" alt="" width="440px" height="500px">
+      <img class="main__img" src="/assets/img/image-intro-desktop.jpg" alt="">
     </section>
 
-    <section class="were_different">
 
+
+    <section class="were_different" id="planos">
+      <div class="linha"></div>
       <p class="were_different__title">Eram diferente</p>
 
       <div class="were_different__services">
 
         <div class="services">
-          <img class="services__img" src="/images/icon-snappy-process.svg" alt="">
+          <img class="services__img" src="/assets/img/icon-snappy-process.svg" alt="">
           <h3 class="services__title">Processo ágil</h3>
           <p class="services__text">Nosso processo de inscrição pode ser concluído em minutos, não em horas. Não fique
             parado preenchendo
@@ -61,7 +82,7 @@
         </div>
 
         <div class="services">
-          <img class="services__img" src="/images/icon-affordable-prices.svg" alt="">
+          <img class="services__img" src="/assets/img/icon-affordable-prices.svg" alt="">
           <h3 class="services__title">Preços acessíveis</h3>
           <p class="services__text">Não queremos que você se preocupe com altos custos mensais. Nossos preços podem ser
             baixos. mas ainda
@@ -69,7 +90,7 @@
         </div>
 
         <div class="services">
-          <img class="services__img" src="/images/icon-people-first.svg" alt="">
+          <img class="services__img" src="assets/img/icon-people-first.svg" alt="">
           <h3 class="services__title">As pessoas primeiro</h3>
           <p class="services__text">Nossos planos não estão cheios de condições e cláusulas para evitar pagamentos.
             Garantimos que você esteja
@@ -79,7 +100,7 @@
       </div>
     </section>
 
-    <section class="Find-out-more">
+    <section class="Find-out-more" id="trabalhos">
       <div class="Find-out-more__center">
         <div class="Find-out-more__row">
           <p class="Find-out-more__text">Descubra mais</p>
@@ -93,15 +114,15 @@
 
   </main>
 
-  <footer class="footer">
+  <footer class="footer" id="contatos">
 
     <div class="footer_garatir">
       <p class="footer_garatir__title">GARANTIR</p>
       <div class="footer_garatir_div">
-        <a href=""> <img class="footer_garatir__img" src="/images/icon-facebook.svg" alt="icone facebook"></a>
-        <a href=""> <img class="footer_garatir__img" src="/images/icon-twitter.svg" alt="icone twitter"></a>
-        <a href=""><img class="footer_garatir__img" src="/images/icon-pinterest.svg" alt="icone pinterest"></a>
-        <a href=""> <img class="footer_garatir__img" src="/images/icon-instagram.svg" alt="icone instagram"></a>
+        <a href=""> <img class="footer_garatir__img" src="/assets/img/icon-facebook.svg" alt="icone facebook"></a>
+        <a href=""> <img class="footer_garatir__img" src="/assets/img/icon-twitter.svg" alt="icone twitter"></a>
+        <a href=""><img class="footer_garatir__img" src="/assets/img/icon-pinterest.svg" alt="icone pinterest"></a>
+        <a href=""> <img class="footer_garatir__img" src="/assets/img/icon-instagram.svg" alt="icone instagram"></a>
       </div>
     </div>
 
@@ -109,33 +130,51 @@
 
       <div class="segure">
         <p class="segure-title">Vamos fazer</p>
-        <p class="p">Seremos apenas nós</p>
-        <p class="p">Venham conferir</p>
-        <p class="p">Será sempre bom</p>
+
+        <div class="div-text">
+          <p class="p">Seremos apenas nós</p>
+          <p class="p">Venham conferir</p>
+          <p class="p">Será sempre bom</p>
+        </div>
+
       </div>
 
       <div class="segure">
         <p class="segure-title">Vamos fazer</p>
-        <p class="p">Seremos apenas nós</p>
-        <p class="p">Venham conferir</p>
-        <p class="p">Será sempre bom</p>
+        <div class="div-text">
+          <p class="p">Seremos apenas nós</p>
+          <p class="p">Venham conferir</p>
+          <p class="p">Será sempre bom</p>
+        </div>
+
       </div>
 
       <div class="segure">
         <p class="segure-title">Vamos fazer</p>
-        <p class="p">Seremos apenas nós</p>
-        <p class="p">Venham conferir</p>
-        <p class="p">Será sempre bom</p>
+        <div class="div-text">
+          <p class="p">Seremos apenas nós</p>
+          <p class="p">Venham conferir</p>
+          <p class="p">Será sempre bom</p>
+        </div>
+
       </div>
 
       <div class="segure">
         <p class="segure-title">Vamos fazer</p>
-        <p class="p">Seremos apenas nós</p>
-        <p class="p">Venham conferir</p>
-        <p class="p">Será sempre bom</p>
+
+        <div class="div-text">
+          <p class="p">Seremos apenas nós</p>
+          <p class="p">Venham conferir</p>
+          <p class="p">Será sempre bom</p>
+        </div>
       </div>
     </div>
   </footer>
+
+  <hr>
+
+  <p class="fabio">Desenvolvido por: Fabio Silva</p>
 </body>
+<script src="/assets/js/script.js"></script>
 
 </html>
