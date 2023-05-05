@@ -2,11 +2,8 @@
  
 ## Desktop
 <img src="/assets/img/desktoop.png" alt="">
-
 ## Mobile
-
 <img src="/assets/img/mobile.png" alt="">
-
 <h2>Sobre</h2>
 
 <p>Proejto feito com base no Layout do FrontEnd Mentor, excelente projeto para treinar o HTML e CSS puro.</p>
